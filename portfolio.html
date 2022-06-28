@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+
+  <body class="primery-text">
+    <header class="header">
+      <div class="container nav">
+        <nav class="nav__main-nav">
+          <!--Логотип-->
+          <a href="./index.html" class="logo">
+            <span lang="en" class="logo--acent">Web</span>
+            <span lang="en" class="logo--main">Studio</span>
+          </a>
+          <ul class="site-nav list-style">
+            <li class="site-nav__item">
+              <a href="./index.html" class="site-nav__link">Студия</a>
+            </li>
+            <li class="site-nav__item">
+              <a
+                href="./portfolio.html"
+                class="site-nav__link site-nav__link--curent"
+                >Портфолио</a
+              >
+            </li>
+            <li class="site-nav__item">
+              <a href="" class="site-nav__link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="auth-nav list-style">
+          <li class="auth-nav__item">
+            <a href="mailto:info@devstudio.com" class="auth-nav__email">
+              <svg class="auth-nav__icon-envelope">
+                <use href="./images/svg/iconmoon.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com</a
+            >
+          </li>
+          <li class="auth-nav__item">
+            <a href="tel:+380961111111" class="auth-nav__email">
+              <svg class="auth-nav__icon-smartphone">
+                <use href="./images/svg/iconmoon.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section class="portfolio-section">
+        <div class="container">
+          <h1 class="visually-hidden">Портфолио</h1>
+          <ul class="list-style filter">
+            <li class="filter__item">
+              <button type="button" class="filter-button">Все</button>
+            </li>
+            <li class="filter__item">
+              <button type="button" class="filter-button">Веб-сайты</button>
+            </li>
+            <li class="filter__item">
+              <button type="button" class="filter-button">Приложения</button>
+            </li>
+            <li class="filter__item">
+              <button type="button" class="filter-button">Дизайн</button>
+            </li>
+            <li class="filter__item">
+              <button type="button" class="filter-button">Маркетинг</button>
+            </li>
+          </ul>
+          <ul class="list-style portfolio">
+            <li class="portfolio__item">
+              <a href="" class="portfolio__link">
+                <div class="prod">
+                  <img
+                    src="./images/squoosh/web.jpg"
+                    alt="Екран ноутбука"
+                    class="prod__img"
+                  />
+                  <p class="prod__description">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="prod__box">
+                  <h2 class="Prod__title">Технокряк</h2>
+                  <h3 class="prod__subtitle">Веб-сайт</h3>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio__item">
+              <a href="" class="portfolio__link">
+                <div class="prod">
+                  <img
+                    src="./images/squoosh/poster-new-orlean.jpg"
+                    alt="Два баскетбольных игрока "
+                    class="prod__img"
+                  />
+                  <p class="prod__description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Tempora provident corrupti quas maiores quod similique modi,
+                    distinctio fugit architecto consectetur.
+                  </p>
+                </div>
+                <div class="prod__box">
+                  <h2 class="Prod__title">Постер New Orlean vs Golden Star</h2>
+                  <h3 class="prod__subtitle">Дизайн</h3>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio__item">
+              <a href="" class="portfolio__link">
+                <div class="prod">
+                  <img
+                    src="./images/squoosh/seafood.jpg"
+                    alt="Эмблема ресторана"
+                    class="prod__img"
+                  />
+                  <p class="prod__description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Doloremque, magnam. Aspernatur unde enim necessitatibus
+                    quibusdam praesentium voluptate earum, veniam in?
+                  </p>
+                </div>
+                <div class="prod__box">
+                  <h2 class="Prod__title">Ресторан Seafood</h2>
+                  <h3 class="prod__subtitle">Приложение</h3>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio__item">
+              <a href="" class="portfolio__link">
+                <div class="prod">
+                  <img
+                    src="./images/squoosh/prime.jpg"
+                    alt="Наушники"
+                    class="prod__img"
+                  />
+                  <p class="prod__description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Doloremque, magnam. Aspernatur unde enim necessitatibus
+                    quibusdam praesentium voluptate earum, veniam in?
+                  </p>
+                </div>
+
+                <div class="prod__box">
+                  <h2 class="Prod__title">Проект Prime</h2>
+                  <h3 class="prod__subtitle">Маркетинг</h3>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio__item">
+              <a href="" class="portfolio__link">
+                <div class="prod">
+                  <img
+                    src="./images/squoosh/boxes.jpg"
+                    alt="Две коробочки"
+                    class="prod__img"
+                  />
+                  <p class="prod__description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Doloremque, magnam. Aspernatur unde enim necessitatibus
+                    quibusdam praesentium voluptate earum, veniam in?
+                  </p>
+                </div>
+
+                <div class="prod__box">
+                  <h2 class="Prod__title">Проект Boxes</h2>
+                  <h3 class="prod__subtitle">Приложение</h3>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio__item">
+              <a href="" class="portfolio__link">
+                <div class="prod">
+                  <img
+                    src="./images/squoosh/web.jpg"
+                    alt="Монитор компютера"
+                    class="prod__img"
+                  />
+                  <p class="prod__description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Doloremque, magnam. Aspernatur unde enim necessitatibus
+                    quibusdam praesentium voluptate earum, veniam in?
+                  </p>
+                </div>
+
+                <div class="prod__box">
+                  <h2 class="Prod__title">Inspiration has no Borders</h2>
+                  <h3 class="prod__subtitle">Веб-сайт</h3>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio__item">
+              <a href="" class="portfolio__link">
+                <div class="prod">
+                  <img
+                    src="./images/squoosh/limited-edition.jpg"
+                    alt="Розвернутый журнал"
+                    class="prod__img"
+                  />
+                  <p class="prod__description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Doloremque, magnam. Aspernatur unde enim necessitatibus
+                    quibusdam praesentium voluptate earum, veniam in?
+                  </p>
+                </div>
+
+                <div class="prod__box">
+                  <h2 class="Prod__title">Издание Limited Edition</h2>
+                  <h3 class="prod__subtitle">Дизайн</h3>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio__item">
+              <a href="" class="portfolio__link">
+                <div class="prod">
+                  <img
+                    src="./images/squoosh/lab.jpg"
+                    alt="Лейбл"
+                    class="prod__img"
+                  />
+                  <p class="prod__description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Doloremque, magnam. Aspernatur unde enim necessitatibus
+                    quibusdam praesentium voluptate earum, veniam in?
+                  </p>
+                </div>
+
+                <div class="prod__box">
+                  <h2 class="Prod__title">Проект LAB</h2>
+                  <h3 class="prod__subtitle">Маркетинг</h3>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio__item">
+              <a href="" class="portfolio__link">
+                <div class="prod">
+                  <img
+                    src="./images/squoosh/growing.jpg"
+                    alt="Веб-бизнес предложение"
+                    class="prod__img"
+                  />
+                  <p class="prod__description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Doloremque, magnam. Aspernatur unde enim necessitatibus
+                    quibusdam praesentium voluptate earum, veniam in?
+                  </p>
+                </div>
+
+                <div class="prod__box">
+                  <h2 class="Prod__title">Growing Business</h2>
+                  <h3 class="prod__subtitle">Приложение</h3>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__content">
+        <section>
+          <a href="./index.html" class="logo footer__logo">
+            <span lang="en" class="logo--acent">Web</span>
+            <span lang="en" class="logo--secondary">Studio</span>
+          </a>
+          <address>
+            <ul class="list-style">
+              <li class="footer__li">
+                <a href="" class="footer__address footer__nav"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="footer__li">
+                <a
+                  href="mailto:info@example.com"
+                  class="footer__contact footer__nav"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="footer__li">
+                <a href="tel:+380991111111" class="footer__contact footer__nav"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </section>
+
+        <section class="footer-social">
+          <h2 class="li-title footer__title">присоединяйтесь</h2>
+          <ul class="list-style footer-social__ul">
+            <li class="footer-social__li">
+              <a href="" class="footer-social__link">
+                <svg class="footer-social__icon">
+                  <use href="./images/svg/iconmoon.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social__li">
+              <a href="" class="footer-social__link">
+                <svg class="footer-social__icon">
+                  <use href="./images/svg/iconmoon.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social__li">
+              <a href="" class="footer-social__link">
+                <svg class="footer-social__icon">
+                  <use href="./images/svg/iconmoon.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social__li">
+              <a href="" class="footer-social__link">
+                <svg class="footer-social__icon">
+                  <use href="./images/svg/iconmoon.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="subscription">
+          <h2 class="li-title footer__title">Подпишитесь на рассылку</h2>
+          <div class="subscription__box">
+            <form>
+              <label for="footer-form">
+                <input
+                  type="email"
+                  id="footer-form"
+                  class="subscription__input"
+                  placeholder="E-mail"
+                />
+              </label>
+            </form>
+            <button class="button subscription__button" type="submit">
+              Подписаться
+              <svg class="subscription__icon">
+                <use href="./images/svg/iconmoon.svg#icon-send"></use>
+              </svg>
+            </button>
+            <!-- <button class="button subscription-button" type="submit">
+            Подписаться
+            <svg class="footer-icon">
+              <use href="./images/svg/iconmoon.svg#icon-send"></use>
+            </svg>
+          </button> -->
+          </div>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>

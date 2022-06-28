@@ -1,0 +1,40 @@
+.advantage{
+   padding-top: 94px;
+   padding-bottom: 94px;
+}
+
+.advantage__ul{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.advantage__list-item{
+   width:calc((100% - 3*30px) / 4);
+   margin-right: 30px;
+
+   &:nth-child(4n){
+      margin-right: 0;
+   }
+}
+
+.advantage__box-icon{
+   display: block;
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    padding: 25px 100px;
+    
+    background: $primery-button-color;
+    
+}
+
+.advantage__icon{
+   width: 70px;
+   height: 70px;
+}
+
+.advantage__text{
+   margin-top: 0;
+   margin-bottom: 0;
+}
