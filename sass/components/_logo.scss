@@ -13,8 +13,14 @@
    }
    &--main{
       color: $black;
+      margin-left: -4px;
    }
    &--secondary{
       color: $primery-bg-color;
+   }
+
+   @media screen and(max-width:1199px){
+      font-size: 24px;  
+      line-height: 1.17;    
    }
 }

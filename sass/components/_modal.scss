@@ -22,9 +22,9 @@
    transform: translate(-50%, -50%) scale(1);
    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-   width: 528px;
-   height: 581px;
-   padding: 40px;
+   // width: 450px;
+   // height: 610px;
+   // padding: 40px;
 
    background-color: $primery-bg-color;
    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -33,6 +33,29 @@
 
    .backdrop.is-hidden &{
       transform: translate(-50%, -50%) scale(1.1);
+   }
+   // @media screen and(min-width:480px) {
+   //    padding: 40px;
+   //    width: 450px;
+   //    height: 610px;
+   // }
+
+   @media screen and(max-width:479px) {
+      padding: 40px;
+      width: calc(100% - 2*15px);
+      height: 610px; 
+   }
+   @media screen and(min-width:480px) and(max-width:1199px){
+      width: 450px;
+      padding: 40px;
+      height: 610px;
+   }
+
+   @media screen and(min-width:1200px) {
+      width: 528px;
+      height: 581px;
+
+      
    }
 }
 
@@ -164,8 +187,18 @@
       justify-content: center;
       align-items: center;
       cursor: pointer;
-}
 
+      @media screen and(max-width:1199px) {
+         font-size: 12px;
+         line-height: 1.17;         
+         letter-spacing: 0.03em;
+      }
+}
+.slave-box__link{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+}
 .checkbox__icon {
    display: inline-block;
       width: 16px;
@@ -184,6 +217,11 @@
 }
 
 .checkbox__link {
-   margin-left: 3px;
+   // margin-left: 3px;
       color: $acent;
+      @media screen and(max-width:1199px) {
+            font-size: 12px;
+            line-height: 1.17;
+            letter-spacing: 0.03em;
+         }
 }
