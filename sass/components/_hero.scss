@@ -19,17 +19,66 @@
     text-align: center;
    //  background-color: #C4C4C4;
 
+   @media screen and(min-width:480px) {
+         padding: 118px 0;
+         height: 400px;
+         max-width: 480px;
+         background-image: url(../../images/img/mobile/header/Img.webp);
+   
+         @media screen and(min-device-pixel-ratio: 2),
+         screen and(-webkit-min-device-pixel-ratio: 2),
+         screen and(-o-min-device-pixel-ratio: 2/1),
+         screen and(min-resolution: 192dpi),
+         screen and(min-resolution: 2dppx) {
+            & {
+               background-image: url(../../images/img/mobile/header/Img@2x.webp);
+            }
+         }
+   
+   
+      }
+
+   @media screen and(min-width:768px) {
+         padding: 118px 0;
+         height: 400px;
+         max-width: 768px;
+         background-image: url(../../images/img/tablet/header/Img.webp);
+   
+         @media screen and(min-device-pixel-ratio: 2),
+         screen and(-webkit-min-device-pixel-ratio: 2),
+         screen and(-o-min-device-pixel-ratio: 2/1),
+         screen and(min-resolution: 192dpi),
+         screen and(min-resolution: 2dppx) {
+            & {
+               background-image: url(../../images/img/tablet/header/Img@2x.webp);
+            }
+         }
+   
+   
+      }
+
 
     @media screen and(min-width:1200px) {
       padding: 200px 0;
-      background-image: url(../images/squoosh/hero-img.jpg);
       height: 600px;
+      max-width: 1600px;
+      background-image: url(../../images/img/main/header/Img.webp);
+      @media screen and(min-device-pixel-ratio: 2),
+         screen and(-webkit-min-device-pixel-ratio: 2),
+         screen and(-o-min-device-pixel-ratio: 2/1),
+         screen and(min-resolution: 192dpi),
+         screen and(min-resolution: 2dppx) {
+            & {
+               background-image: url(../../images/img/main/header/Img@2x.webp);
+            }
+         }
+      
 
     }
 }
 
 .hero__title{
-   width: 360px;
+   width: 100%;
     margin: 0 auto;
     margin-bottom: 30px;
 
@@ -40,6 +89,10 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: $primery-bg-color;
+
+   @media screen and(min-width:768px) {
+      width: 360px;
+   }
 
     @media screen and(min-width:1200px) {
       width: 695px;
