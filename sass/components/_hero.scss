@@ -23,10 +23,21 @@
          padding: 118px 0;
          height: 400px;
          max-width: 480px;
-         background-image: linear-gradient(to right,
-               rgba(47, 48, 58, 0.4),
-               rgba(47, 48, 58, 0.4)), url(../images/img/mobile/header/Img.webp);
+         // background-image: linear-gradient(to right,
+         //       rgba(47, 48, 58, 0.4),
+         //       rgba(47, 48, 58, 0.4)), url(../images/img/mobile/header/Img.jpg);
    
+         @media screen and(min-device-pixel-ratio: 1),
+            screen and(-webkit-min-device-pixel-ratio: 1),
+            screen and(-o-min-device-pixel-ratio: 1/1),
+            screen and(min-resolution: 96dpi),
+            screen and(min-resolution: 1dppx) {
+               & {
+                  background-image: linear-gradient(to right,
+                        rgba(47, 48, 58, 0.4),
+                        rgba(47, 48, 58, 0.4)), url(../images/img/mobile/header/Img.jpg);
+               }
+            }
          @media screen and(min-device-pixel-ratio: 2),
          screen and(-webkit-min-device-pixel-ratio: 2),
          screen and(-o-min-device-pixel-ratio: 2/1),
@@ -35,7 +46,7 @@
             & {
                background-image: linear-gradient(to right,
                      rgba(47, 48, 58, 0.4),
-                     rgba(47, 48, 58, 0.4)), url(../images/img/mobile/header/Img@2x.webp);
+                     rgba(47, 48, 58, 0.4)), url(../images/img/mobile/header/Img@2x.jpg);
             }
          }
    
@@ -46,10 +57,21 @@
          padding: 118px 0;
          height: 400px;
          max-width: 768px;
-         background-image: linear-gradient(to right,
-               rgba(47, 48, 58, 0.4),
-               rgba(47, 48, 58, 0.4)), url(../images/img/tablet/header/Img.webp);
+         // background-image: linear-gradient(to right,
+         //       rgba(47, 48, 58, 0.4),
+         //       rgba(47, 48, 58, 0.4)), url(../);
    
+         @media screen and(min-device-pixel-ratio: 1),
+            screen and(-webkit-min-device-pixel-ratio: 1),
+            screen and(-o-min-device-pixel-ratio: 1/1),
+            screen and(min-resolution: 96dpi),
+            screen and(min-resolution: 1dppx) {
+               & {
+                  background-image: linear-gradient(to right,
+                        rgba(47, 48, 58, 0.4),
+                        rgba(47, 48, 58, 0.4)), url(../images/img/tablet/header/Img.jpg);
+               }
+            }
          @media screen and(min-device-pixel-ratio: 2),
          screen and(-webkit-min-device-pixel-ratio: 2),
          screen and(-o-min-device-pixel-ratio: 2/1),
@@ -58,7 +80,7 @@
             & {
                background-image: linear-gradient(to right,
                      rgba(47, 48, 58, 0.4),
-                     rgba(47, 48, 58, 0.4)), url(../images/img/tablet/header/Img@2x.webp);
+                     rgba(47, 48, 58, 0.4)), url(../images/img/tablet/header/Img@2x.jpg);
             }
          }
    
