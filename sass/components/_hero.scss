@@ -23,7 +23,9 @@
          padding: 118px 0;
          height: 400px;
          max-width: 480px;
-         background-image: url(../images/img/mobile/header/Img.webp);
+         background-image: linear-gradient(to right,
+               rgba(47, 48, 58, 0.4),
+               rgba(47, 48, 58, 0.4)), url(../images/img/mobile/header/Img.webp);
    
          @media screen and(min-device-pixel-ratio: 2),
          screen and(-webkit-min-device-pixel-ratio: 2),
@@ -31,7 +33,9 @@
          screen and(min-resolution: 192dpi),
          screen and(min-resolution: 2dppx) {
             & {
-               background-image: url(../images/img/mobile/header/Img@2x.webp);
+               background-image: linear-gradient(to right,
+                     rgba(47, 48, 58, 0.4),
+                     rgba(47, 48, 58, 0.4)), url(../images/img/mobile/header/Img@2x.webp);
             }
          }
    
@@ -42,7 +46,9 @@
          padding: 118px 0;
          height: 400px;
          max-width: 768px;
-         background-image: url(../images/img/tablet/header/Img.webp);
+         background-image: linear-gradient(to right,
+               rgba(47, 48, 58, 0.4),
+               rgba(47, 48, 58, 0.4)), url(../images/img/tablet/header/Img.webp);
    
          @media screen and(min-device-pixel-ratio: 2),
          screen and(-webkit-min-device-pixel-ratio: 2),
@@ -50,7 +56,9 @@
          screen and(min-resolution: 192dpi),
          screen and(min-resolution: 2dppx) {
             & {
-               background-image: url(../images/img/tablet/header/Img@2x.webp);
+               background-image: linear-gradient(to right,
+                     rgba(47, 48, 58, 0.4),
+                     rgba(47, 48, 58, 0.4)), url(../images/img/tablet/header/Img@2x.webp);
             }
          }
    
@@ -62,14 +70,18 @@
       padding: 200px 0;
       height: 600px;
       max-width: 1600px;
-      background-image: url(../images/img/main/header/Img.webp);
+      background-image: linear-gradient(to right,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)), url(../images/img/main/header/Img.webp);
       @media screen and(min-device-pixel-ratio: 2),
          screen and(-webkit-min-device-pixel-ratio: 2),
          screen and(-o-min-device-pixel-ratio: 2/1),
          screen and(min-resolution: 192dpi),
          screen and(min-resolution: 2dppx) {
             & {
-               background-image: url(../images/img/main/header/Img@2x.webp);
+               background-image: linear-gradient(to right,
+                     rgba(47, 48, 58, 0.4),
+                     rgba(47, 48, 58, 0.4)), url(../images/img/main/header/Img@2x.webp);
             }
          }
       
