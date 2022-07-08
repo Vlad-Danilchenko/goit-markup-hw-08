@@ -211,7 +211,7 @@
 .site-nav__link {
   padding-bottom: 32px;
   display: block;
-  color: var(--title-text-color);
+  color: #212121;
   font-weight: 500;
   font-size: 40px;
   line-height: 1.18;
